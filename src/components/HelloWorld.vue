@@ -81,7 +81,7 @@
       <div class="card1">
         <div class="card">
           <img
-            style="width: 10%"
+            style="width: 10%; margin-top: 40px"
             src="https://lh3.googleusercontent.com/proxy/B-hZu9GHbOS-ETpxHEl0IH2Yn2hN0qZdJwklxEnt5j9Ta4c2N4hh6lpjGPgw1wOs0xS6sZQgKmoC3UsfnNWXfUYK"
             class="card-img-top"
             alt="..."
@@ -103,11 +103,12 @@
       <div class="card2">
         <div class="card">
           <img
-            style="width: 10%"
-            src="https://lh3.googleusercontent.com/proxy/B-hZu9GHbOS-ETpxHEl0IH2Yn2hN0qZdJwklxEnt5j9Ta4c2N4hh6lpjGPgw1wOs0xS6sZQgKmoC3UsfnNWXfUYK"
+            style="width: 10%; margin-top: 40px"
+            src="https://i.dlpng.com/static/png/6965960_preview.png"
             class="card-img-top"
             alt="..."
           />
+
           <div class="card-body">
             <h2
               style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui;"
@@ -125,8 +126,8 @@
       <div class="card3">
         <div class="card">
           <img
-            style="width: 10%"
-            src="https://lh3.googleusercontent.com/proxy/B-hZu9GHbOS-ETpxHEl0IH2Yn2hN0qZdJwklxEnt5j9Ta4c2N4hh6lpjGPgw1wOs0xS6sZQgKmoC3UsfnNWXfUYK"
+            style="width: 10%; margin-top: 40px"
+            src="https://cdn1.iconfinder.com/data/icons/semi-warm-color-v1/512/call_center_headphones_headset_mic-512.png"
             class="card-img-top"
             alt="..."
           />

@@ -37,20 +37,38 @@
   box-sizing: inherit;
   border-radius: 14px;
 }
+.card1:hover {
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
+}
 .card1 {
   border-radius: 20px;
   border-right: 10px solid #d41f9c;
   border-bottom: 10px solid #d41f9c;
+  transition: transform 0.4s;
+}
+.card2:hover {
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
 }
 .card2 {
   border-radius: 20px;
   border-right: 10px solid #871fff;
   border-bottom: 10px solid #871fff;
   margin-top: 90px;
+  transition: transform 0.4s;
+}
+.card3:hover {
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
 }
 .card3 {
   border-radius: 20px;
   border-right: 10px solid #ffa78c;
   border-bottom: 10px solid #ffa78c;
-  margin-top: 160px;
+  margin-top: 180px;
+  transition: transform 0.4s;
 }
