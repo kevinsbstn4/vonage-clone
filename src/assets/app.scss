@@ -1,12 +1,56 @@
 @import "~bootstrap/scss/bootstrap";
 
 .navs {
-  margin-top: -50px;
+  margin-top: -20px;
   background-color: white;
 }
 .navbar-nav {
   font-size: 18px;
+  margin-left: 6%;
 }
 .nav1 {
   font-size: 13px;
+}
+.nav2 {
+  margin-top: 20px;
+}
+.display-4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn-contact {
+  margin-left: 290px;
+}
+.main-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.card-text {
+  font-family: Georgia, serif;
+  font-size: 18px;
+}
+.card {
+  width: 100%;
+  padding-left: 2rem;
+  box-sizing: inherit;
+  border-radius: 14px;
+}
+.card1 {
+  border-radius: 20px;
+  border-right: 10px solid #d41f9c;
+  border-bottom: 10px solid #d41f9c;
+}
+.card2 {
+  border-radius: 20px;
+  border-right: 10px solid #871fff;
+  border-bottom: 10px solid #871fff;
+  margin-top: 90px;
+}
+.card3 {
+  border-radius: 20px;
+  border-right: 10px solid #ffa78c;
+  border-bottom: 10px solid #ffa78c;
+  margin-top: 160px;
 }

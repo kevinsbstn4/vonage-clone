@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a style="color: black;" class="nav-link" href="#">Products</a>
+              <a style="color: black; " class="nav-link" href="#">Products</a>
             </li>
             <li class="nav-item">
               <a style="color: black;" class="nav-link" href="#">Resources</a>
@@ -34,21 +34,118 @@
             <li class="nav-item">
               <a style="color: black;" class="nav-link" href="#">Pricing</a>
             </li>
+            <div class="btn-contact">
+              <button type="button" class="btn btn-dark">Contact us</button>
+            </div>
           </ul>
         </div>
       </nav>
     </div>
     <!-- NAVBAR END -->
     <!-- JUMBOTRON -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
+    <div class="jumbotron1">
+      <div
+        style="background-image: url('https://previews.123rf.com/images/yayha/yayha1711/yayha171100416/90626923-clouds-sky-nature-pastel-colored-gradient-pink-blue-to-orange-abstract-background-great-for-any-use-.jpg');
+          background-size: cover;"
+        class="jumbotron jumbotron-fluid"
+      >
+        <div class="container">
+          <h1 style="color: white; font-size: 70px;" class="display-4">
+            <b><b>Unify your communications? </b></b>
+          </h1>
+          <h1 style="color: white; font-size: 70px;" class="display-4">
+            <b><b>We thought you'd never ask.</b></b>
+          </h1>
+          <p style="color: white; margin-top: 20px;" class="lead">
+            Let's get started.
+          </p>
+          <button
+            style="padding: 2% 2%;  margin-top: 30px; font-size: 16px"
+            type="button"
+            class="btn btn-light btn-lg"
+          >
+            <b><b>See Pricing</b></b>
+          </button>
+          <button
+            style="padding: 2%; margin-left: 20px; margin-top: 30px; color: white; "
+            type="button"
+            class="btn btn-outline-light btn-lg"
+          >
+            About the new Vonage
+          </button>
+        </div>
       </div>
     </div>
+    <!-- CARD -->
+    <div class="main-card">
+      <div class="card1">
+        <div class="card">
+          <img
+            style="width: 10%"
+            src="https://lh3.googleusercontent.com/proxy/B-hZu9GHbOS-ETpxHEl0IH2Yn2hN0qZdJwklxEnt5j9Ta4c2N4hh6lpjGPgw1wOs0xS6sZQgKmoC3UsfnNWXfUYK"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2
+              style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui;"
+            >
+              Communications APIs
+            </h2>
+            <p class="card-text">
+              Build omnichannel conversations that transform your customer
+              experience with programmable messaging, voice, video, and more.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card2">
+        <div class="card">
+          <img
+            style="width: 10%"
+            src="https://lh3.googleusercontent.com/proxy/B-hZu9GHbOS-ETpxHEl0IH2Yn2hN0qZdJwklxEnt5j9Ta4c2N4hh6lpjGPgw1wOs0xS6sZQgKmoC3UsfnNWXfUYK"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2
+              style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui;"
+            >
+              Unified Communications
+            </h2>
+            <p class="card-text">
+              Business phone systems and much, much more: flexible communication
+              and collaboration solutions for employees across every channel.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card3">
+        <div class="card">
+          <img
+            style="width: 10%"
+            src="https://lh3.googleusercontent.com/proxy/B-hZu9GHbOS-ETpxHEl0IH2Yn2hN0qZdJwklxEnt5j9Ta4c2N4hh6lpjGPgw1wOs0xS6sZQgKmoC3UsfnNWXfUYK"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2
+              style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui;"
+            >
+              Contact Centers
+            </h2>
+            <p class="card-text">
+              CRM integration across every channel provides your sales and
+              service agents with just what they need to make every conversation
+              great.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CARD END -->
   </div>
 </template>
 
