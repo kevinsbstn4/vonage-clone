@@ -82,7 +82,7 @@
         <div class="card">
           <img
             style="width: 10%; margin-top: 40px"
-            src="https://lh3.googleusercontent.com/proxy/B-hZu9GHbOS-ETpxHEl0IH2Yn2hN0qZdJwklxEnt5j9Ta4c2N4hh6lpjGPgw1wOs0xS6sZQgKmoC3UsfnNWXfUYK"
+            src="../assets/cloud.webp"
             class="card-img-top"
             alt="..."
           />
@@ -104,7 +104,7 @@
         <div class="card">
           <img
             style="width: 10%; margin-top: 40px"
-            src="https://i.dlpng.com/static/png/6965960_preview.png"
+            src="../assets/telephone.png"
             class="card-img-top"
             alt="..."
           />
@@ -147,6 +147,64 @@
       </div>
     </div>
     <!-- CARD END -->
+    <!-- UNIFIED COMMUNICATIONS -->
+    <div class="row">
+      <div class="col-6">
+        <div class="title">
+          <p>UNIFIED COMMUNICATIONS</p>
+          <h2><b>Vonage Business</b></h2>
+          <h2><b>Communications</b></h2>
+        </div>
+        <div class="p-3">
+          <p style="padding-left: 10%;">
+            Looking to transform your employee and customer experiences? Upgrade
+            your office communications to a single, flexible platform that
+            offers:
+          </p>
+        </div>
+        <div class="list-unified">
+          <div class="table-1">
+            <table cellpadding="5">
+              <tr>
+                <td>- Cloud-based business phone systems</td>
+              </tr>
+              <tr>
+                <td>- Unlimited calls and SMS*</td>
+              </tr>
+              <tr>
+                <td>- Video collaboration</td>
+              </tr>
+              <tr>
+                <td>- 50+ phone features</td>
+              </tr>
+            </table>
+          </div>
+          <div class="table-2">
+            <table cellpadding="5">
+              <tr>
+                <td>- Team messaging</td>
+              </tr>
+              <tr>
+                <td>- 99.999% reliability**</td>
+              </tr>
+              <tr>
+                <td>- Mobile and desktop apps</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <p style=" font-size: 15px; text-decoration: underline;">
+          <b>SEE PLANS AND PRICING</b>
+        </p>
+      </div>
+      <div class="col-6">
+        <img
+          style="width: 90%"
+          src="https://www.vonage.com/content/dam/vonage/us-en/brand/imagery/vonage/Paragraph%202%20about-img-products.png"
+        />
+      </div>
+    </div>
+    <!-- UNIFIED COMMUNICATIONS END -->
   </div>
 </template>
 
