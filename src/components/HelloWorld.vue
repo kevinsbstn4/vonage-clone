@@ -193,8 +193,10 @@
             </table>
           </div>
         </div>
-        <p style=" font-size: 15px; text-decoration: underline;">
-          <b>SEE PLANS AND PRICING</b>
+        <p
+          style=" font-size: 15px; text-align: justify; padding-left: 12%; padding-top: 9%; font-family: serif; border-width: 2%; "
+        >
+          <b><b>SEE PLANS AND PRICING</b></b>
         </p>
       </div>
       <div class="col-6">
@@ -205,6 +207,75 @@
       </div>
     </div>
     <!-- UNIFIED COMMUNICATIONS END -->
+    <!-- VIDEO API -->
+    <div class="row">
+      <div class="col-6">
+        <img
+          style="width: 50%; margin-top: 220px;"
+          src="../assets/Laptop_VideoHello.svg"
+        />
+      </div>
+      <div class="col-6">
+        <div class="title-api">
+          <p>COMMUNICATIONS APIS</p>
+          <h2 style="font-size: 37px; font-family: sans-serif;">
+            <b>Video API</b>
+          </h2>
+        </div>
+        <div class="p-4">
+          <p style="padding-left: 0%;">
+            Bring people together globally in mobile and web live video
+            sessions. The Vonage Video API (formerly TokBox OpenTok) makes it
+            easy to build a custom video experience within any mobile, web, or
+            desktop application. Our Video API features include:
+          </p>
+        </div>
+        <div class="list-videoapi">
+          <div class="table-3">
+            <table cellpadding="8">
+              <tr>
+                <td>
+                  - Support for all your video use cases: 1:1 consultations,
+                  group video chat, screen sharing, and large scale broadcasts
+                  to thousands
+                </td>
+              </tr>
+              <tr>
+                <td>- Recording of any session</td>
+              </tr>
+              <tr>
+                <td>- A comprehensive developer experience</td>
+              </tr>
+            </table>
+          </div>
+          <div class="table-4">
+            <table cellpadding="8">
+              <tr>
+                <td>
+                  - Vital data, including duration and quality of every session
+                  and every stream
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  - Advanced security, firewall-control, regional isolation, and
+                  compliance certification options
+                </td>
+              </tr>
+              <tr>
+                <td>- End to end assistance with our Enterprise plan</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <p
+          style=" font-size: 15px; text-align: justify; padding-left: 5%; padding-top: 9%; font-family: serif; border-width: 2%; "
+        >
+          <b><b>GET DETAILS</b></b>
+        </p>
+      </div>
+    </div>
+    <!-- VIDEO API END -->
   </div>
 </template>
 

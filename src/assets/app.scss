@@ -91,11 +91,35 @@
   display: flex;
   justify-content: space-between;
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
   padding-left: 12%;
   font-family: Georgia, serif;
 }
 .title {
   text-align: justify;
   padding-left: 12%;
+}
+.p-4 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.list-videoapi {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  font-size: 16px;
+  padding-left: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+.table-4 {
+  padding-left: 4%;
+}
+.title-api {
+  padding-right: 65%;
+}
+.title-api p {
+  padding-left: 10%;
 }
