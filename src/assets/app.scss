@@ -105,21 +105,47 @@
   font-weight: 400;
   line-height: 1.5rem;
   text-align: justify;
+  margin-top: -10px;
 }
 .list-videoapi {
   display: flex;
   justify-content: space-between;
   text-align: justify;
-  font-size: 16px;
-  padding-left: 5%;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  padding-left: 3%;
+  font-family: Spezia, Spezia_SemiMono, Arial, Helvetica, sans-serif;
+  margin-top: -26px;
 }
 .table-4 {
-  padding-left: 4%;
+  padding-left: 2%;
 }
 .title-api {
-  padding-right: 65%;
+  padding-right: 68%;
 }
 .title-api p {
   padding-left: 10%;
+}
+.p-5 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.list-cc {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  font-size: 15px;
+  padding-left: 16%;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  margin-top: -30px;
+}
+.title-cc {
+  text-align: justify;
+  padding-left: 19%;
+}
+.table-6 {
+  padding-left: 6%;
 }

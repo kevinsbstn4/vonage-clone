@@ -166,29 +166,29 @@
           <div class="table-1">
             <table cellpadding="5">
               <tr>
-                <td>- Cloud-based business phone systems</td>
+                <td>&#9658;Cloud-based business phone systems</td>
               </tr>
               <tr>
-                <td>- Unlimited calls and SMS*</td>
+                <td>&#9658;Unlimited calls and SMS*</td>
               </tr>
               <tr>
-                <td>- Video collaboration</td>
+                <td>&#9658;Video collaboration</td>
               </tr>
               <tr>
-                <td>- 50+ phone features</td>
+                <td>&#9658;50+ phone features</td>
               </tr>
             </table>
           </div>
           <div class="table-2">
             <table cellpadding="5">
               <tr>
-                <td>- Team messaging</td>
+                <td>&#9658;Team messaging</td>
               </tr>
               <tr>
-                <td>- 99.999% reliability**</td>
+                <td>&#9658;99.999% reliability**</td>
               </tr>
               <tr>
-                <td>- Mobile and desktop apps</td>
+                <td>&#9658;Mobile and desktop apps</td>
               </tr>
             </table>
           </div>
@@ -217,9 +217,11 @@
       </div>
       <div class="col-6">
         <div class="title-api">
-          <p>COMMUNICATIONS APIS</p>
-          <h2 style="font-size: 37px; font-family: sans-serif;">
-            <b>Video API</b>
+          <p style="font-size: 11px;letter-spacing: .1rem;">
+            COMMUNICATIONS APIS
+          </p>
+          <h2 style="font-size: 37px; font-family: Optima;">
+            Video API
           </h2>
         </div>
         <div class="p-4">
@@ -235,16 +237,16 @@
             <table cellpadding="8">
               <tr>
                 <td>
-                  - Support for all your video use cases: 1:1 consultations,
-                  group video chat, screen sharing, and large scale broadcasts
-                  to thousands
+                  &#9679;Support for all your video use cases: 1:1
+                  consultations, group video chat, screen sharing, and large
+                  scale broadcasts to thousands
                 </td>
               </tr>
               <tr>
-                <td>- Recording of any session</td>
+                <td>&#9679;Recording of any session</td>
               </tr>
               <tr>
-                <td>- A comprehensive developer experience</td>
+                <td>&#9679;A comprehensive developer experience</td>
               </tr>
             </table>
           </div>
@@ -252,18 +254,18 @@
             <table cellpadding="8">
               <tr>
                 <td>
-                  - Vital data, including duration and quality of every session
-                  and every stream
+                  &#9679;Vital data, including duration and quality of every
+                  session and every stream
                 </td>
               </tr>
               <tr>
                 <td>
-                  - Advanced security, firewall-control, regional isolation, and
-                  compliance certification options
+                  &#9679;Advanced security, firewall-control, regional
+                  isolation, and compliance certification options
                 </td>
               </tr>
               <tr>
-                <td>- End to end assistance with our Enterprise plan</td>
+                <td>&#9679;End to end assistance with our Enterprise plan</td>
               </tr>
             </table>
           </div>
@@ -276,6 +278,80 @@
       </div>
     </div>
     <!-- VIDEO API END -->
+    <!-- CONTACT CENTER -->
+    <div class="row">
+      <div class="col-6">
+        <div class="title-cc">
+          <p>CONTACT CENTER</p>
+          <h2><b>Vonage Contact Center </b></h2>
+        </div>
+        <div class="p-5">
+          <p style="padding-left: 12%;">
+            Our award-winning contact center (formerly NewVoiceMedia) integrates
+            seamlessly with Salesforce, maximizing your communications
+            investment. Don't use Salesforce? We have other great options.
+          </p>
+        </div>
+        <div class="list-cc">
+          <div class="table-5">
+            <table cellpadding="5">
+              <tr>
+                <td>
+                  &#9679;Deliver exceptional customer experiences by connecting
+                  calls to the best available agent
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &#9679;Personalize every interaction with dynamic routing and
+                  intelligent IVR
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &#9679;Click-to-dial directly from Salesforce, automatically
+                  logging and recording calls
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="table-6">
+            <table cellpadding="5">
+              <tr>
+                <td>
+                  &#9679; Ensure consistent conversations across digital and
+                  voice channels
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &#9679;Unlock hidden insights with powerful speech analytics
+                  and easy-to-use dashboards
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &#9679; Leverage AI capabilities to support faster sales and
+                  better service experiences
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <p
+          style=" font-size: 15px; text-align: justify; padding-left: 12%; padding-top: 9%; font-family: serif; border-width: 2%; "
+        >
+          <b><b>SEE PLANS</b></b>
+        </p>
+      </div>
+      <div class="col-6">
+        <img
+          style="width: 50%; margin-top: 140px"
+          src="../assets/Contact Center.svg"
+        />
+      </div>
+    </div>
+    <!-- CONTACT CENTER END -->
   </div>
 </template>
 
