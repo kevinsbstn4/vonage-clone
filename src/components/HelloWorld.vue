@@ -79,11 +79,11 @@
     <!-- CARD -->
     <div class="main-card">
       <div class="card1">
-        <div class="card">
+        <div class="card0">
           <img
             style="width: 10%; margin-top: 40px"
             src="../assets/cloud.webp"
-            class="card-img-top"
+            class="card0-img-top"
             alt="..."
           />
           <div class="card-body">
@@ -101,7 +101,7 @@
       </div>
 
       <div class="card2">
-        <div class="card">
+        <div class="card0">
           <img
             style="width: 10%; margin-top: 40px"
             src="../assets/telephone.png"
@@ -124,7 +124,7 @@
       </div>
 
       <div class="card3">
-        <div class="card">
+        <div class="card0">
           <img
             style="width: 10%; margin-top: 40px"
             src="https://cdn1.iconfinder.com/data/icons/semi-warm-color-v1/512/call_center_headphones_headset_mic-512.png"
@@ -282,8 +282,10 @@
     <div class="row">
       <div class="col-6">
         <div class="title-cc">
-          <p style="font-size: 11px;letter-spacing: .1rem;">CONTACT CENTER</p>
-          <h2 style="font-size: 37px; font-family: Optima;">
+          <p style="font-size: 11px;letter-spacing: .1rem; padding-left: 2%">
+            CONTACT CENTER
+          </p>
+          <h2 style="font-size: 37px; font-family: Copperplate;">
             Vonage Contact Center
           </h2>
         </div>
@@ -354,6 +356,52 @@
       </div>
     </div>
     <!-- CONTACT CENTER END -->
+    <!-- END NOTE -->
+    <div class="end-note">
+      <b> <hr style="width: 95%; border-top: 1px solid silver;" /> </b>
+      <div class="p-end">
+        <p>
+          *Unlimited calling in the continental U.S. & Canada, reasonable and
+          acceptable use policies apply.
+        </p>
+        <p style="margin-top: -16px">
+          **The 99.999% claim is based on Vonage's average uptime and/or
+          availability over a 6-month period (from Aug 2019 - Feb 2020).
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <div class="card-end">
+              <img
+                src="https://www.vonage.com/content/dam/vonage/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png"
+                alt="Avatar"
+                style="width:100%"
+              />
+              <div class="container-end">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card-end">
+              <img
+                src="https://www.vonage.com/content/dam/vonage/us-en/unified-communications/customer-stories/ebury_homepage.png"
+                alt="Avatar"
+                style="width:100%"
+              />
+              <div class="container-end">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NOTE END -->
   </div>
 </template>
 
