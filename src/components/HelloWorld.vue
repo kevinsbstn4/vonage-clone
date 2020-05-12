@@ -234,7 +234,7 @@
         </div>
         <div class="list-videoapi">
           <div class="table-3">
-            <table cellpadding="8">
+            <table cellpadding="6">
               <tr>
                 <td>
                   &#9679;Support for all your video use cases: 1:1
@@ -251,7 +251,7 @@
             </table>
           </div>
           <div class="table-4">
-            <table cellpadding="8">
+            <table cellpadding="6">
               <tr>
                 <td>
                   &#9679;Vital data, including duration and quality of every
@@ -265,7 +265,7 @@
                 </td>
               </tr>
               <tr>
-                <td>&#9679;End to end assistance with our Enterprise plan</td>
+                <td>&#9679;End-to-end assistance with our Enterprise plan</td>
               </tr>
             </table>
           </div>
@@ -282,8 +282,10 @@
     <div class="row">
       <div class="col-6">
         <div class="title-cc">
-          <p>CONTACT CENTER</p>
-          <h2><b>Vonage Contact Center </b></h2>
+          <p style="font-size: 11px;letter-spacing: .1rem;">CONTACT CENTER</p>
+          <h2 style="font-size: 37px; font-family: Optima;">
+            Vonage Contact Center
+          </h2>
         </div>
         <div class="p-5">
           <p style="padding-left: 12%;">
@@ -303,7 +305,7 @@
               </tr>
               <tr>
                 <td>
-                  &#9679;Personalize every interaction with dynamic routing and
+                  &#9679; Personalize every interaction with dynamic routing and
                   intelligent IVR
                 </td>
               </tr>
@@ -319,7 +321,7 @@
             <table cellpadding="5">
               <tr>
                 <td>
-                  &#9679; Ensure consistent conversations across digital and
+                  &#9679;Ensure consistent conversations across digital and
                   voice channels
                 </td>
               </tr>
@@ -331,7 +333,7 @@
               </tr>
               <tr>
                 <td>
-                  &#9679; Leverage AI capabilities to support faster sales and
+                  &#9679;Leverage AI capabilities to support faster sales and
                   better service experiences
                 </td>
               </tr>
@@ -339,7 +341,7 @@
           </div>
         </div>
         <p
-          style=" font-size: 15px; text-align: justify; padding-left: 12%; padding-top: 9%; font-family: serif; border-width: 2%; "
+          style=" font-size: 15px; text-align: justify; padding-left: 18%; padding-top: 9%; font-family: serif; border-width: 2%; "
         >
           <b><b>SEE PLANS</b></b>
         </p>
