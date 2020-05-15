@@ -369,39 +369,161 @@
           availability over a 6-month period (from Aug 2019 - Feb 2020).
         </p>
       </div>
+    </div>
+    <!-- CARD -->
+    <div class="card-game">
+      <div class="card" style="width: 30%; margin-left: 2%">
+        <div class="img-hover-zoom img-hover-zoom--xyz">
+          <img
+            src="https://www.vonage.com/content/dam/vonage/us-en/unified-communications/customer-stories/doxyme.png"
+            class="card-img-top"
+            alt="..."
+          />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">COMMUNICATIONS APIS</h5>
+          <h5 class="body-title">VONAGE STORY</h5>
+          <p class="card-text">
+            Doxy.me supported over 600,000 doctor-to-patient video sessions with
+            over 11 million video minutes—in a single day
+          </p>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="card" style="width: 30%;">
+        <img
+          src="https://www.vonage.com/content/dam/vonage/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">CONTACT CENTERS</h5>
+          <h5 class="body-title">CASE STUDY</h5>
+          <p class="card-text">
+            Revitalizing customer experience for MTD's dealer network with
+            Vonage's Contact Centers
+          </p>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card" style="width: 30%; margin-right: 2%">
+        <img
+          src="https://www.vonage.com/content/dam/vonage/us-en/unified-communications/customer-stories/ebury_homepage.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">CONTACT CENTERS</h5>
+          <h5 class="body-title">EBURY</h5>
+          <p class="card-text">
+            Ebury Accelerates Sales with Vonage Contact Center for Salesforce
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END NOTE END -->
+    <!-- Speak with an expert. -->
+    <div
+      style="margin-top: 120px; background-color: black;"
+      class="jumbotron jumbotron"
+    >
       <div class="container">
         <div class="row">
-          <div class="col-sm"></div>
-          <div class="col-sm">
-            <div class="card-end">
-              <img
-                src="https://www.vonage.com/content/dam/vonage/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png"
-                alt="Avatar"
-                style="width:100%"
-              />
-              <div class="container-end">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
-              </div>
+          <div class="col-sm-8">
+            <div class="speak">
+              <h1>
+                <img
+                  style="width: 19%; padding-right: 3%"
+                  src="https://www.vonage.com/content/dam/vonage/us-en/brand/pictograms/with-margin/Pictograms_2019_Vonage_Phone.svg"
+                />
+                Speak with an expert.
+              </h1>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card-end">
-              <img
-                src="https://www.vonage.com/content/dam/vonage/us-en/unified-communications/customer-stories/ebury_homepage.png"
-                alt="Avatar"
-                style="width:100%"
-              />
-              <div class="container-end">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+          <div class="col-sm-4">
+            <div class="nomor">
+              <p>US toll-free number: 1-844-365-9460</p>
+              <p style="position: relative; top: -10px;">
+                UK toll-free number: +44 800 086 9444
+              </p>
+              <div
+                style="margin-top: 5px; font-size: 15px;letter-spacing: 2px"
+                class="row"
+              >
+                <b
+                  ><b
+                    ><i
+                      style="position: relative; left: 10px;"
+                      class="far fa-envelope"
+                    ></i></b
+                ></b>
+                <div class="col-6 col-sm-3">
+                  EMAIL
+                </div>
+                <b
+                  ><b
+                    ><i
+                      style="position: relative; left: 10px;"
+                      class="far fa-comments"
+                    ></i></b
+                ></b>
+                <div class="col-6 col-sm-3">
+                  CHAT
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- END NOTE END -->
+    <!-- Speak with an expert. END -->
+    <!-- FOOTER -->
+    <footer class="footerr">
+      <div class="row">
+        <div class="col">
+          <p>Partners</p>
+          <p>System status</p>
+          <p>Support</p>
+          <p>Referrals <i class="fas fa-external-link-alt"></i></p>
+          <p>Global contact</p>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <p style="color: 	#808080;">CORPORATE</p>
+          <p>Investors <i class="fas fa-external-link-alt"></i></p>
+          <p>Events</p>
+          <p>Careers</p>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <p style="color: 	#808080;">SOCIAL</p>
+          <p>
+            <i class="fab fa-facebook-f"></i> Facebook
+            <i class="fas fa-external-link-alt"></i>
+          </p>
+          <p>
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+            <i class="fas fa-external-link-alt"></i>
+          </p>
+          <p>
+            <i class="fab fa-twitter"></i> Twitter
+            <i class="fas fa-external-link-alt"></i>
+          </p>
+          <p>
+            <i class="fab fa-youtube"></i> YouTube
+            <i class="fas fa-external-link-alt"></i>
+          </p>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <p style="color: 	#808080;">LEGAL/POLICY</p>
+          <p>Legal</p>
+          <p>Privacy</p>
+          <p>Patents</p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
   </div>
 </template>
 

@@ -160,14 +160,61 @@
   color: #808080;
   width: 57%;
 }
-.card-end {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+.card-game {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 190px;
+}
+.img-hover-zoom {
+  overflow: hidden; /* Removing this will break the effects */
+}
+/* Slow-motion Zoom Container */
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(150%);
+}
+
+/* The Transformation */
+.img-hover-zoom--slowmo:hover img {
+  filter: brightness(100%);
+  transform: scale(3);
+}
+.card-body {
+  text-align: justify;
+}
+.card-title {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.body-title {
+  font-size: 12px;
+  color: #a9a9a9;
+}
+.speak {
+  color: white;
+  margin-top: -59px;
   width: 100%;
 }
-.card-end:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.speak h1 {
+  font-size: 58px;
+  margin-left: -50px;
+  font-family: system-ui;
 }
-.container-end {
-  padding: 2px 14px;
+.nomor {
+  text-align: justify;
+  color: white;
+  position: relative;
+  padding-left: 12%;
+  padding-bottom: 17%;
+  top: -60px;
+  font-size: 17px;
+}
+.footerr {
+  text-align: justify;
+  position: relative;
+  padding-left: 2%;
+  padding-bottom: 10%;
+  letter-spacing: 2px;
+  font-size: small;
 }
