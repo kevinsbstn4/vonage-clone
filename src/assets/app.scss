@@ -9,7 +9,7 @@
   margin-left: 6%;
 }
 .nav1 {
-  font-size: 13px;
+  font-size: 15px;
   overflow: hidden;
   background-color: white;
   transition: 0.4s;
@@ -46,14 +46,14 @@
   margin-top: 50px;
 }
 .card-text {
-  font-family: Georgia, serif;
   font-size: 18px;
 }
 .card0 {
-  width: 100%;
-  padding-left: 2rem;
+  width: 70%;
   box-sizing: inherit;
   border-radius: 14px;
+  text-align: center;
+  padding-left: 12%;
 }
 .card1:hover {
   -ms-transform: scale(0.9); /* IE 9 */
@@ -65,6 +65,14 @@
   border-right: 10px solid #d41f9c;
   border-bottom: 10px solid #d41f9c;
   transition: transform 0.4s;
+  height: 550px;
+}
+.card1 img {
+  display: flex;
+  justify-self: start;
+  overflow: visible;
+  margin: 0 2.5%;
+  width: 16%;
 }
 .card2:hover {
   -ms-transform: scale(0.9); /* IE 9 */
@@ -77,6 +85,14 @@
   border-bottom: 10px solid #871fff;
   margin-top: 90px;
   transition: transform 0.4s;
+  height: 550px;
+}
+.card2 img {
+  display: flex;
+  justify-self: start;
+  overflow: visible;
+  margin: 0 2.5%;
+  width: 12%;
 }
 .card3:hover {
   -ms-transform: scale(0.9); /* IE 9 */
@@ -89,6 +105,14 @@
   border-bottom: 10px solid #ffa78c;
   margin-top: 180px;
   transition: transform 0.4s;
+  height: 550px;
+}
+.card3 img {
+  display: flex;
+  justify-self: start;
+  overflow: visible;
+  margin: 0 2.5%;
+  width: 12%;
 }
 .row {
   width: 100%;

@@ -3,7 +3,9 @@
     <!-- NAVBAR -->
     <div class="nav1">
       <div class="d-flex justify-content-end">
-        <div class="p-2 bd-highlight">Vonage for Home</div>
+        <div class="p-2 bd-highlight">
+          Vonage for Home <i class="fas fa-external-link-alt"></i>
+        </div>
         <div class="p-2 bd-highlight">Log In</div>
         <div class="p-2 bd-highlight">Support</div>
       </div>
@@ -80,19 +82,17 @@
     <div class="main-card">
       <div class="card1">
         <div class="card0">
-          <img
-            style="width: 10%; margin-top: 40px"
-            src="../assets/cloud.webp"
-            class="card0-img-top"
-            alt="..."
-          />
+          <img src="../assets/cloud.webp" class="card0-img-top" alt="..." />
           <div class="card-body">
             <h2
-              style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui;"
+              style="letter-spacing: -.05rem; padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui; width: 50%;"
             >
               Communications APIs
             </h2>
-            <p class="card-text">
+            <p
+              style="width: 110%; text-align: center; text-align: justify;"
+              class="card-text"
+            >
               Build omnichannel conversations that transform your customer
               experience with programmable messaging, voice, video, and more.
             </p>
@@ -102,20 +102,18 @@
 
       <div class="card2">
         <div class="card0">
-          <img
-            style="width: 10%; margin-top: 40px"
-            src="../assets/telephone.png"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="../assets/telephone.png" class="card-img-top" alt="..." />
 
           <div class="card-body">
             <h2
-              style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui;"
+              style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui; width: 50%;"
             >
               Unified Communications
             </h2>
-            <p class="card-text">
+            <p
+              style="width: 110%; text-align: center; text-align: justify;"
+              class="card-text"
+            >
               Business phone systems and much, much more: flexible communication
               and collaboration solutions for employees across every channel.
             </p>
@@ -126,18 +124,20 @@
       <div class="card3">
         <div class="card0">
           <img
-            style="width: 10%; margin-top: 40px"
             src="https://cdn1.iconfinder.com/data/icons/semi-warm-color-v1/512/call_center_headphones_headset_mic-512.png"
             class="card-img-top"
             alt="..."
           />
           <div class="card-body">
             <h2
-              style="letter-spacing: -.05rem; -webkit-box-align: end; align-items: flex-end;     padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui;"
+              style="letter-spacing: -.05rem; padding-bottom: 3rem; padding-top: 6.5rem; font-family: system-ui; width: 150% "
             >
               Contact Centers
             </h2>
-            <p class="card-text">
+            <p
+              style="width: 110%; text-align: center; text-align: justify;"
+              class="card-text"
+            >
               CRM integration across every channel provides your sales and
               service agents with just what they need to make every conversation
               great.
