@@ -115,7 +115,7 @@
               Communications APIs
             </h2>
             <p
-              style="width: 110%; text-align: center; text-align: justify;"
+              style="width: 140%; text-align: center; text-align: justify;"
               class="card-text"
             >
               Build omnichannel conversations that transform your customer
