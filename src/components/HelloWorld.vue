@@ -84,7 +84,7 @@
             <b><b>in a remote world.</b></b>
           </h1>
           <p style="color: white; margin-top: 20px;" class="lead">
-            Let's get started.
+            Now we're talking.
           </p>
           <button
             style="padding: 2% 2%;  margin-top: 30px; font-size: 16px"
@@ -94,11 +94,11 @@
             <b><b>See Pricing</b></b>
           </button>
           <button
-            style="padding: 2%; margin-left: 20px; margin-top: 30px; color: white; "
+            style="padding: 2%; margin-left: 20px; margin-top: 30px;"
             type="button"
-            class="btn btn-outline-light btn-lg"
+            class="btn btn-outline-light"
           >
-            About the new Vonage
+            View featured solutions
           </button>
         </div>
       </div>
