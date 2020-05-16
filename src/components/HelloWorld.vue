@@ -78,10 +78,10 @@
       >
         <div class="container">
           <h1 style="color: white; font-size: 70px;" class="display-4">
-            <b><b>Unify your communications? </b></b>
+            <b><b>We help businesses succeed </b></b>
           </h1>
           <h1 style="color: white; font-size: 70px;" class="display-4">
-            <b><b>We thought you'd never ask.</b></b>
+            <b><b>in a remote world.</b></b>
           </h1>
           <p style="color: white; margin-top: 20px;" class="lead">
             Let's get started.
