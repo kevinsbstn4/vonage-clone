@@ -7,39 +7,64 @@
           Vonage for Home <i class="fas fa-external-link-alt"></i>
         </div>
         <div class="p-2 bd-highlight">Log In</div>
-        <div class="p-2 bd-highlight">Support</div>
+        <div class="p-2 bd-highlight">
+          Support <i class="fas fa-search"></i>
+        </div>
       </div>
     </div>
 
     <div class="nav2">
       <nav class="navbar navbar-expand-lg ">
         <img
-          style="width: 15%"
+          style="width: 14%; margin-top: -14px;"
           src="https://image4.owler.com/logo/vonage_owler_20191212_183242_original.jpg"
         />
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a style="color: black; " class="nav-link" href="#">Products</a>
+              <a
+                style="color: black; font-size: 16px; "
+                class="nav-link"
+                href="#"
+                >Products</a
+              >
             </li>
             <li class="nav-item">
-              <a style="color: black;" class="nav-link" href="#">Resources</a>
+              <a
+                style="color: black; font-size: 16px;"
+                class="nav-link"
+                href="#"
+                >Resources</a
+              >
             </li>
             <li class="nav-item">
-              <a style="color: black;" class="nav-link" href="#"
+              <a
+                style="color: black; font-size: 16px;"
+                class="nav-link"
+                href="#"
                 >Developer Center</a
               >
             </li>
             <li class="nav-item">
-              <a style="color: black;" class="nav-link" href="#">About Us</a>
+              <a
+                style="color: black; font-size: 16px;"
+                class="nav-link"
+                href="#"
+                >About Us</a
+              >
             </li>
             <li class="nav-item">
-              <a style="color: black;" class="nav-link" href="#">Pricing</a>
+              <a
+                style="color: black; font-size: 16px;"
+                class="nav-link"
+                href="#"
+                >Pricing</a
+              >
             </li>
-            <div class="btn-contact">
-              <button type="button" class="btn btn-dark">Contact us</button>
-            </div>
           </ul>
+          <div class="btn-contact">
+            <button type="button" class="btn btn-dark">Contact us</button>
+          </div>
         </div>
       </nav>
     </div>
