@@ -72,7 +72,7 @@
     <!-- JUMBOTRON -->
     <div class="jumbotron1">
       <div
-        style="background-image: url('https://previews.123rf.com/images/yayha/yayha1711/yayha171100416/90626923-clouds-sky-nature-pastel-colored-gradient-pink-blue-to-orange-abstract-background-great-for-any-use-.jpg');
+        style="background-image: url('https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-5.jpg');
           background-size: cover;"
         class="jumbotron jumbotron-fluid"
       >
