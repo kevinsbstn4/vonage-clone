@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <LoginUser msg="Welcome to Your Vue.js App" />
     <font-awesome-icon icon="" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import LoginUser from "./components/LoginUser.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    LoginUser,
   },
 };
 </script>
