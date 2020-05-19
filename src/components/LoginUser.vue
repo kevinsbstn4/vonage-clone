@@ -22,7 +22,7 @@
             v-model="email"
             class="fadeIn second"
             name="login"
-            placeholder="Username"
+            placeholder="Email"
           />
           <input
             type="text"
@@ -40,6 +40,7 @@
 </template>
 <script>
 import Vue from "vue";
+import axios from "axios";
 import HelloWorld from "../components/HelloWorld.vue";
 export default {
   name: "LoginUser",
@@ -55,7 +56,10 @@ export default {
             if (response.status === 200 && "token" in response.body) {
               this.$session.start();
               this.$session.set("jwt", response.body.token);
-              Vue.http.headers.common["Authorization"] =
+              //Setting Response Local Storage
+              localStorage.setItem(response);
+              //Authorizarion
+              Vue.http.common["Authorization"] =
                 "Bearer " + response.body.token;
               this.$router.push({
                 path: "/home",
@@ -68,6 +72,12 @@ export default {
             console.log("err", err);
           }
         );
+    },
+    mounted() {
+      const t = this;
+      axios.get("http://157.245.206.206:9811/api/login").then((response) => {
+        t.login = response;
+      });
     },
   },
 };
