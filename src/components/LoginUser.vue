@@ -15,17 +15,19 @@
         </div>
 
         <!-- Login Form -->
-        <form>
+        <form @submit.prevent="login">
           <input
             type="text"
-            id="login"
+            required
+            v-model="email"
             class="fadeIn second"
             name="login"
             placeholder="Username"
           />
           <input
             type="text"
-            id="password"
+            required
+            v-model="password"
             class="fadeIn third"
             name="login"
             placeholder="Password"
@@ -37,26 +39,36 @@
   </div>
 </template>
 <script>
+import Vue from "vue";
+import HelloWorld from "../components/HelloWorld.vue";
 export default {
   name: "LoginUser",
-  props: {
-    msg: String,
+  methods: {
+    login: function() {
+      this.$http
+        .post("http://157.245.206.206:9811/api/login", {
+          email: this.email,
+          password: this.password,
+        })
+        .then(
+          function(response) {
+            if (response.status === 200 && "token" in response.body) {
+              this.$session.start();
+              this.$session.set("jwt", response.body.token);
+              Vue.http.headers.common["Authorization"] =
+                "Bearer " + response.body.token;
+              this.$router.push({
+                path: "/home",
+                name: "HelloWorld",
+                component: HelloWorld,
+              });
+            }
+          },
+          function(err) {
+            console.log("err", err);
+          }
+        );
+    },
   },
 };
 </script>
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

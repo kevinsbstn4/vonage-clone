@@ -1,5 +1,8 @@
 import Vue from "vue";
 import App from "./App.vue";
+import axios from "axios";
+import VueSession from "vue-session";
+import VueRouter from "vue-router";
 import "jquery";
 import "popper.js";
 import "bootstrap";
@@ -18,6 +21,9 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.config.productionTip = false;
 
 Vue.config.productionTip = false;
+Vue.use(axios);
+Vue.use(VueSession);
+Vue.use(VueRouter);
 
 new Vue({
   render: (h) => h(App),
