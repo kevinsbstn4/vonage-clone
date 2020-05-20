@@ -32,7 +32,12 @@
             name="login"
             placeholder="Password"
           />
-          <input type="submit" class="fadeIn fourth" value="Log In" />
+          <input
+            type="submit"
+            class="fadeIn fourth"
+            value="log In"
+            @click="login"
+          />
         </form>
       </div>
     </div>
@@ -56,8 +61,6 @@ export default {
             if (response.status === 200 && "token" in response.body) {
               this.$session.start();
               this.$session.set("jwt", response.body.token);
-              //Setting Response Local Storage
-              localStorage.setItem(response);
               //Authorizarion
               Vue.http.common["Authorization"] =
                 "Bearer " + response.body.token;
@@ -73,12 +76,27 @@ export default {
           }
         );
     },
-    mounted() {
-      const t = this;
-      axios.get("http://157.245.206.206:9811/api/login").then((response) => {
-        t.login = response;
+    RESET_TOKEN_TRX: async ({ commit }, payload) => {
+      return await axios({
+        url: "api/login",
+        data: payload,
+        method: "POST",
+      }).then((resp) => {
+        if (resp.data.code == 200) {
+          commit("CUSTOMER", resp.data.data);
+        }
+        return resp;
       });
     },
+
+    // mounted() {
+    //   const t = this;
+    //   axios.get("http://157.245.206.206:9811/api/login").then((response) => {
+    //     t.login = response;
+    //     if (localStorage.response) {
+    //       this.response = localStorage.response;
+    //     }
+    //   });
   },
 };
 </script>

@@ -25,6 +25,11 @@ Vue.use(axios);
 Vue.use(VueSession);
 Vue.use(VueRouter);
 
+// if (process.env.NODE_ENV === "production") {
+//   window.axios.defaults.baseURL = "http://157.245.206.206:9809/api/login";
+// } else {
+//   window.axios.defaults.baseURL = "http://localhost:9809/";
+// }
 new Vue({
   render: (h) => h(App),
 }).$mount("#app");
