@@ -87,16 +87,17 @@ export default {
         }
         return resp;
       });
-    },
 
-    // mounted() {
-    //   const t = this;
-    //   axios.get("http://157.245.206.206:9811/api/login").then((response) => {
-    //     t.login = response;
-    //     if (localStorage.response) {
-    //       this.response = localStorage.response;
-    //     }
-    //   });
+      //MAY 19 2O2O
+      // mounted() {
+      //   const t = this;
+      //   axios.get("http://157.245.206.206:9811/api/login").then((response) => {
+      //     t.login = response;
+      //     if (localStorage.response) {
+      //       this.response = localStorage.response;
+      //     }
+      //   });
+    },
   },
 };
 </script>
