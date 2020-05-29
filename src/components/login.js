@@ -23,3 +23,11 @@ const getters = {
   resp: (state) => state.resp,
   columns: (state) => state.columns,
 };
+window.axios.defaults.headers.post["Content-Type"] = "application/json";
+if (LoginUser.getters["customer/customer"].token) {
+  window.axios.defaults.headers.common["Authorization"] =
+    LoginUser.getters["customer/customer"].token;
+} else {
+  ``;
+  window.axios.defaults.headers.common["Authorization"] = "";
+}

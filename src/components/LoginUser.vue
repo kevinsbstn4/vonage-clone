@@ -18,7 +18,6 @@
         <form @submit.prevent="login">
           <input
             type="text"
-            required
             v-model="email"
             class="fadeIn second"
             name="login"
@@ -26,7 +25,6 @@
           />
           <input
             type="text"
-            required
             v-model="password"
             class="fadeIn third"
             name="login"
@@ -44,60 +42,35 @@
   </div>
 </template>
 <script>
-import Vue from "vue";
-import axios from "axios";
-import HelloWorld from "../components/HelloWorld.vue";
+import Axios from "axios";
 export default {
   name: "LoginUser",
   methods: {
     login: function() {
-      this.$http
-        .post("http://157.245.206.206:9811/api/login", {
-          email: this.email,
-          password: this.password,
+      Axios.post("http://157.245.206.206:9811/api/login", {
+        email: "user@gmail.com",
+        password: "rahasia123",
+        headers: {
+          "Content-type": "application/json",
+        },
+      })
+        .then((resp) => {
+          console.log(resp);
         })
-        .then(
-          function(response) {
-            if (response.status === 200 && "token" in response.body) {
-              this.$session.start();
-              this.$session.set("jwt", response.body.token);
-              //Authorizarion
-              Vue.http.common["Authorization"] =
-                "Bearer " + response.body.token;
-              this.$router.push({
-                path: "/home",
-                name: "HelloWorld",
-                component: HelloWorld,
-              });
-            }
-          },
-          function(err) {
-            console.log("err", err);
-          }
-        );
+        .catch((error) => {
+          console.log(error);
+        });
     },
-    RESET_TOKEN_TRX: async ({ commit }, payload) => {
-      return await axios({
-        url: "api/login",
-        data: payload,
-        method: "POST",
-      }).then((resp) => {
-        if (resp.data.code == 200) {
-          commit("CUSTOMER", resp.data.data);
-        }
-        return resp;
-      });
 
-      //MAY 19 2O2O
-      // mounted() {
-      //   const t = this;
-      //   axios.get("http://157.245.206.206:9811/api/login").then((response) => {
-      //     t.login = response;
-      //     if (localStorage.response) {
-      //       this.response = localStorage.response;
-      //     }
-      //   });
-    },
+    //MAY 19 2O2O
+    // mounted() {
+    //   const t = this;
+    //   axios.get("http://157.245.206.206:9811/api/login").then((response) => {
+    //     t.login = response;
+    //     if (localStorage.response) {
+    //       this.response = localStorage.response;
+    //     }
+    //   });
   },
 };
 </script>
