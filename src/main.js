@@ -30,6 +30,7 @@ Vue.use(VueRouter);
 // } else {
 //   window.axios.defaults.baseURL = "http://localhost:9809/";
 // }
+
 new Vue({
   render: (h) => h(App),
 }).$mount("#app");
