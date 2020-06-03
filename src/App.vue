@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <LoginUser msg="Welcome to Your Vue.js App" />
+    <VideoDash msg="Welcome to Your Vue.js App" />
     <font-awesome-icon icon="" />
   </div>
 </template>
 
 <script>
-import LoginUser from "./components/LoginUser.vue";
+import VideoDash from "./components/VideoDash.vue";
 
 export default {
   name: "App",
   components: {
-    LoginUser,
+    VideoDash,
   },
 };
 </script>
